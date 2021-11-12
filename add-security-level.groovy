@@ -1,4 +1,4 @@
-// adds default security level to new task in chosen project
+// adds default security level to new task on CreateIssue event
 import com.atlassian.jira.component.ComponentAccessor
 import com.atlassian.jira.event.type.EventDispatchOption
 import com.atlassian.jira.issue.IssueManager;
