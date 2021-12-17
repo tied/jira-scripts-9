@@ -25,7 +25,7 @@ TEMPO_API_TOKEN = ''
 SENDER_MAIL = ''
 SENDER_PASSWORD = ''
 SMTP_SERVER = ''
-SMTP_PORT = ''
+SMTP_PORT = 465
 
 
 class TempoData:
