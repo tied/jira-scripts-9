@@ -1,6 +1,6 @@
 # jira-scripts
 ### `tempo-worklog.py`<br>
-Creates a csv report with billed hours from Tempo
+Creates a csv report with billed hours from Tempo<br>
 Available arguments:
 - `-b/--beginDate`	starting range of date in yyyy-mm-dd format, the default is the first day of the previous month
 - `-e/--endDate`	ending date range in yyyy-mm-dd format, default is the first day of the current month
