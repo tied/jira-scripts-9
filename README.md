@@ -10,3 +10,5 @@ Available arguments:
 - `-u/--ftpUser`	user that the script should use to send the report to FTP
 - `-p/--ftpPassword`	Password needed to log in to FTP (if needed)
 - `-m/--recipientMail`	Report recipient, you can enter several recipients in the format -m mail1 mail2 mail3
+
+### `training-request-flow`<br>
