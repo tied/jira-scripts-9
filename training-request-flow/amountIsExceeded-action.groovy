@@ -9,7 +9,7 @@ def commentManager = ComponentAccessor.getCommentManager()
 def userManager = ComponentAccessor.getUserManager()
 
 def currIssue = issueManager.getIssueObject(issue.key)
-def excedeedAmount = customFieldManager.getCustomFieldObject(11605)
+def excedeedAmount = customFieldManager.getCustomFieldObject(11605) // Excedeed Amount field ID
 def excedeedAmountValue = currIssue.getCustomFieldValue(excedeedAmount)
 
 def comment = "Issue has been automatically rejected, because your budget for this year's training has been exceeded\nExceeded amount is $excedeedAmountValue PLN\n"
