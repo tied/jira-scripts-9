@@ -14,7 +14,7 @@ def searchService = ComponentAccessor.getComponent(SearchService)
 
 def TrainingCost = customFieldManager.getCustomFieldObject(11600) //Training Cost [PLN] field ID
 def excedeedAmount = customFieldManager.getCustomFieldObject(11605) //Excedeed Amount [PLN] field ID
-def maxTrainingCost = 4000 // Maximum amount allocated to training per year for a single employee
+def maxTrainingCost = 5000 // Maximum amount allocated to training per year for a single employee
 def sumTrainingCost = 0
 def excessValue = 0
 def issueTrainingCostValue
